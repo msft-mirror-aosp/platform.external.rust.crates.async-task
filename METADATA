@@ -5,13 +5,13 @@ description:
 third_party {
   url {
     type: HOMEPAGE
-    value: "https://github.com/smol-rs/async-task"
+    value: "https://crates.io/crates/async-task"
   }
   url {
-    type: GIT
-    value: "https://github.com/smol-rs/async-task.git"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/async-task/async-task-4.0.3.crate"
   }
-  version: "v4.0.3"
+  version: "4.0.3"
   last_upgrade_date { year: 2021 month: 2 day: 5 }
   license_type: NOTICE
 }
