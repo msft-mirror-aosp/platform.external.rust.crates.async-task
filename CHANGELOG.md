@@ -1,3 +1,19 @@
+# Version 4.5.0
+
+- Add a `portable-atomic` feature that enables the usage of fallback primitives for CPUs without atomics. (#58)
+
+# Version 4.4.1
+
+- Clarify safety documentation for `spawn_unchecked`. (#49)
+
+# Version 4.4.0
+
+- Ensure that the allocation doesn't exceed `isize::MAX` (#32)
+- Add `FallibleTask::is_finished()` (#34)
+- Add a metadata generic parameter to tasks (#33)
+- Add panic propagation to tasks (#37)
+- Add a way to tell if the task was woken while running from the schedule function (#42)
+
 # Version 4.3.0
 
 - Bump MSRV to Rust 1.47. (#30)
